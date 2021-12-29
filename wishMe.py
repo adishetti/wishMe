@@ -15,13 +15,13 @@ def speak(text):
 def wishTime():
     hour=datetime.datetime.now().hour
     if hour>=0 and hour<12:
-        speak("Hello Adi,Good Morning")
-        print("Hello Adi,Good Morning")
+        speak("Hello _____,Good Morning")
+        print("Hello _____,Good Morning")
     elif hour>=12 and hour<15:
-        speak("Hello Adi,Good Afternoon")
-        print("Hello Adi,Good Afternoon")
+        speak("Hello _____,Good Afternoon")
+        print("Hello _____,Good Afternoon")
     else:
-        speak("Hello Adi,Good Evening")
-        print("Hello Adi,Good Evening")
+        speak("Hello _____,Good Evening")
+        print("Hello _____,Good Evening")
 
 wishTime()
